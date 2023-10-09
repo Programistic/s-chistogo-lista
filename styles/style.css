@@ -56,3 +56,45 @@
   text-decoration: none;
 }
 
+
+
+.cover {
+  margin: 0;
+  padding: 7px 24px 0 20px;
+  box-sizing: border-box;
+  background-image: url('../images/cover.svg');
+  background-size: 94%;
+  background-repeat: no-repeat;
+  background-position: 23px 25px;
+}
+
+.content-section {
+  
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond Regular', serif;
+  font-size: 72px;
+  line-height: 1;
+  color: #fff;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  align-self: center;
+}
+
+.text-right {
+  align-self: flex-end;
+}
