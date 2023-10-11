@@ -233,3 +233,41 @@
   background-color: #fee42a;
   color: #131313;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+  background-color: #131313;
+  border-top: 1px solid #fee42a;
+}
+
+.footer__copy {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #f5f5f5;
+}
+
+.footer__links-list {
+  display: flex;
+  column-gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: opacity .15s ease;
+}
+
+.footer__link:hover {
+  opacity: .7;
+}
