@@ -4,6 +4,28 @@
   background-color: lightgrey;
 }
 
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  align-self: center;
+}
+
+.text-right {
+  align-self: flex-end;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -66,14 +88,6 @@
   background-position: 23px 25px;
 }
 
-.content-section_theme_dark {
-  background-color: #131313;
-}
-
-.content-section_theme_bright {
-  background-color: #fee42a;
-}
-
 .cover__title {
   display: flex;
   flex-direction: column;
@@ -82,19 +96,6 @@
   font-family: 'EB Garamond Regular', serif;
   font-size: 72px;
   line-height: 1;
-  color: #fff;
-}
-
-.accent-span {
-  display: block;
-}
-
-.text-center {
-  align-self: center;
-}
-
-.text-right {
-  align-self: flex-end;
 }
 
 .intro {
@@ -133,7 +134,6 @@
   font-family: 'Inter Regular', sans-serif;
   font-size: 16px;
   line-height: 1.35;
-  color: #f5f5f5;
 }
 
 .reasons {
@@ -150,7 +150,6 @@
   font-family: 'EB Garamond Medium', serif;
   font-size: 28px;
   line-height: 1.15;
-  color: #131313;
 }
 
 .content-section__introduction {
@@ -159,7 +158,6 @@
   font-family: 'Inter Regular', sans-serif;
   font-size: 20px;
   line-height: 1.35;
-  color: #131313;
 }
 
 .content-section__list {
@@ -168,7 +166,6 @@
   font-family: 'Inter Regular', sans-serif;
   font-size: 16px;
   line-height: 1.35;
-  color: #131313;
 }
 
 .content-section__list-item {
@@ -178,4 +175,61 @@
 
 .content-section__list-accent {
   font-family: 'Inter Bold', sans-serif;
+}
+
+.how-to {
+  margin: 0;
+  padding: 40px 20px 60px;
+  box-sizing: border-box;
+}
+
+.cards-list {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin: 32px 0 0;
+  padding: 20px;
+  list-style-type: none;
+  border-radius: 30px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  margin: 8px 0;
+  padding: 0;
+  font-family: 'Inter Bold', sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.card__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond Medium', serif;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.card__text {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #f5f5f5;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
 }
