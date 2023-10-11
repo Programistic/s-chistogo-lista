@@ -5,7 +5,7 @@
        local('EB-Garamond-Regular'),
        url(./ebgaramondregular.woff2) format("woff2"),
        url(./ebgaramondregular.woff) format("woff"),
-       url(./ebgaramondmedium.ttf) format("ttf");
+       url(./ebgaramondregular.ttf) format("ttf");
 }
 
 @font-face {
