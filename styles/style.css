@@ -84,9 +84,9 @@
   padding: 7px 24px 5px 20px;
   box-sizing: border-box;
   background-image: url('../images/cover.svg');
-  background-size: 100% 86%;
+  background-size: 95% 100%;
   background-repeat: no-repeat;
-  background-position: 10px 24px;
+  background-position: 20px center;
 }
 
 .cover__title {
@@ -97,7 +97,7 @@
   font-family: 'EB Garamond', serif;
   font-size: 72px;
   font-weight: 400;
-  line-height: .97;
+  line-height: .9;
 }
 
 .intro {
