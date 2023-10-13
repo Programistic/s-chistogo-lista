@@ -1,6 +1,5 @@
 .page {
   margin: 0 auto;
-  padding: 0;
   max-width: 360px;
 }
 
@@ -45,11 +44,6 @@
   opacity: .7;
 }
 
-.header__menu {
-  margin: 0;
-  padding: 0;
-}
-
 .header__menu-list {
   display: flex;
   flex-direction: column;
@@ -84,9 +78,9 @@
   padding: 7px 24px 5px 20px;
   box-sizing: border-box;
   background-image: url('../images/cover.svg');
-  background-size: 93% 97%;
+  background-size: 94% 97%;
   background-repeat: no-repeat;
-  background-position: 22px 20px;
+  background-position: 21px 18px;
 }
 
 .cover__title {
@@ -178,7 +172,6 @@
 
 .content-section__list-item {
   margin: 16px 0 0;
-  padding: 0;
 }
 
 .content-section__list-item:nth-child(1) {
