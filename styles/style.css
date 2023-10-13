@@ -82,10 +82,10 @@
 
 .cover {
   margin: 0;
-  padding: 7px 24px 5px 20px;
+  padding: 6px 24px 5px 20px;
   box-sizing: border-box;
   background-image: url('../images/cover.svg');
-  background-size: 95% 100%;
+  background-size: 94% 100%;
   background-repeat: no-repeat;
   background-position: 20px center;
 }
