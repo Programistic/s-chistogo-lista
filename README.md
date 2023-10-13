@@ -1,20 +1,19 @@
-# Одностраничный сайт "Научиться учиться"
+### One-page mobile website "From scratch"
 
-### https://cut-plantation.surge.sh
+#### About
+It is my training project from Yandex.Praktikum
 
-#### Учебный проект от Яндекс-Практикум
+#### Project functionality
+One-page not an adaptive mobile website. The purpose of creating<br>
+a website is to acquire skills in the use of HTML, CSS, BEM, Flex
 
-##### Функциональность:
-Сайт знакомит пользователя с различными современными методами обучения, практикуемыми
-в мире, и их авторами. Даёт ссылки на полезные ресурсы о техниках обучения в сети Интернет.
+#### Technology stack
+- HTML5
+- CSS3
+- BEM
+- Flex
 
-##### Используемые технологии:
-- БЭМ
-- Абсолютное и относительное позиционирование элементов
-- Flex Layout
-- Трансформации
-- Анимации
+#### Deploy
 
-##### Планы по доработке проекта:
-- Сделать сайт адаптивным для устройств с различным разрешением экрана
-- Проверить код на кроссбраузерность и дописать все вендорные префиксы
+
+#### Website link
