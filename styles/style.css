@@ -81,12 +81,12 @@
 
 .cover {
   margin: 0;
-  padding: 7px 24px 0 20px;
+  padding: 7px 24px 5px 20px;
   box-sizing: border-box;
   background-image: url('../images/cover.svg');
-  background-size: 94%;
+  background-size: 100% 86%;
   background-repeat: no-repeat;
-  background-position: 23px 25px;
+  background-position: 10px 24px;
 }
 
 .cover__title {
@@ -97,7 +97,7 @@
   font-family: 'EB Garamond', serif;
   font-size: 72px;
   font-weight: 400;
-  line-height: 1;
+  line-height: .97;
 }
 
 .intro {
